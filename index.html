@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  type="image/x-icon" href="R4.jpg">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="player.css">
+</head>
+<body>
+    <h1>&#127932<b>Music Player</b>&#127932</h1>
+    <div class="music-player">
+        <div class="music-info">
+            <img src="OIP.jpg" alt="Album Cover" class="album-cover">
+            <div class="track-info">
+                <h2 class="track-title">Song Title</h2>
+                <p class="artist">Artist Name</p>
+            </div>
+        </div>
+        <div class="audio-controls">
+            <button class="control-btn" id="prevBtn">&#9668;&#9668;</button>
+            <button class="control-btn" id="playPauseBtn">&#9658;</button>
+            <button class="control-btn" id="nextBtn">&#9658;&#9658;</button>
+            <input type="range" id="volume" class="volume-control" value="100" max="100">
+            <button class="control-btn" id="shuffleBtn">Shuffle</button>
+            <button class="control-btn" id="repeatBtn">Repeat</button>
+        </div>
+        <div class="progress-bar-container">
+            <input type="range" id="progress" class="progress-bar" value="0" max="100">
+        </div>
+    </div>
+  
+
+    <script src="player1.js"></script>
+</body>
+</html>
